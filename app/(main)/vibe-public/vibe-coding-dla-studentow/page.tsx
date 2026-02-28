@@ -2,7 +2,7 @@ import { GraduationCap, Book, Award } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Vibe Coding dla Studentów: Czy warto jeszcze uczyć się C++? | Polutek.pl",
+  title: "Vibe Coding dla Studentów: Czy warto jeszcze uczyć się C++? | Nasza Gazetka",
   description: "Jak studiować informatykę w erze AI. Dlaczego fundamenty są ważniejsze niż kiedykolwiek, mimo że AI pisze kod.",
 };
 
@@ -13,7 +13,7 @@ export default function StudentsPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

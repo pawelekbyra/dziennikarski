@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Chrome, Bot, Zap, Globe } from 'lucide-react';
 
 export const metadata = {
-  title: "Case Study: Rozszerzenie Chrome z AI w 45 minut | Polutek.pl",
+  title: "Case Study: Rozszerzenie Chrome z AI w 45 minut | Nasza Gazetka",
   description: "Dowiedz się jak zbudowaliśmy wtyczkę do przeglądarki podsumowującą artykuły przy użyciu API Claude. Praktyczny przykład Vibe Codingu.",
 };
 
@@ -13,7 +13,7 @@ export default function ChromeExtensionCaseStudy() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
       <div className="text-center mb-16">

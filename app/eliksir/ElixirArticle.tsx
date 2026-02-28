@@ -35,8 +35,8 @@ export default function ElixirArticle() {
     "datePublished": "2024-03-03",
     "author": [{
       "@type": "Person",
-      "name": "Detektyw Polutek",
-      "url": "mailto:detektyw.polutek@protonmail.com"
+      "name": "Redakcja Naszej Gazetki",
+      "url": "mailto:redakcja@naszagazetka.pl"
     }]
   };
 
@@ -589,8 +589,8 @@ export default function ElixirArticle() {
 
             <div className="mt-8 mb-4 flex justify-end">
                <div className="text-right">
-                  <span className="block font-bold text-stone-900">Detektyw Polutek</span>
-                  <span className="block text-xs text-stone-500 font-sans mt-1 italic">detektyw.polutek@protonmail.com</span>
+                  <span className="block font-bold text-stone-900">Redakcja Naszej Gazetki</span>
+                  <span className="block text-xs text-stone-500 font-sans mt-1 italic">redakcja@naszagazetka.pl</span>
                </div>
             </div>
 

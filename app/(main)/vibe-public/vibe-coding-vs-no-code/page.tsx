@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { MousePointer2, Keyboard, Scale } from 'lucide-react';
 
 export const metadata = {
-  title: "Vibe Coding vs No-Code: Dlaczego to nie to samo? | Polutek.pl",
+  title: "Vibe Coding vs No-Code: Dlaczego to nie to samo? | Nasza Gazetka",
   description: "Porównanie programowania intencyjnego z platformami typu Bubble czy Webflow. Wybierz odpowiedni stack.",
 };
 
@@ -13,7 +13,7 @@ export default function NoCodePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Vibe Coding vs No-Code</h1>

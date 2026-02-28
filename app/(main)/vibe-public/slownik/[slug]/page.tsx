@@ -32,7 +32,7 @@ export default function GlossaryTermPage({ params }: any) {
         type="Article"
         headline={`${term.term} - Słownik Vibe Coding`}
         description={term.definition}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

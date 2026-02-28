@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: any) {
   const cs = caseStudies.find(c => c.slug === params.slug);
   if (!cs) return {};
   return {
-    title: `Case Study: ${cs.title} | Polutek.pl`,
+    title: `Case Study: ${cs.title} | Nasza Gazetka`,
     description: cs.summary,
   };
 }
@@ -29,7 +29,7 @@ export default function CaseStudyPage({ params }: any) {
         type="Article"
         headline={cs.title}
         description={cs.summary}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

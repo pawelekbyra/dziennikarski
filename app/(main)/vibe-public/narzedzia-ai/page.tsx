@@ -3,7 +3,7 @@ import { ArrowRight, Terminal, Zap, Globe, Cpu } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Narzędzia Ery Vibe Coding 2025 | Polutek.pl",
+  title: "Narzędzia Ery Vibe Coding 2025 | Nasza Gazetka",
   description: "Zestawienie najlepszych narzędzi do programowania z AI. Cursor, Claude, Lovable, Bolt i wiele innych.",
 };
 
@@ -14,7 +14,7 @@ export default function ToolsPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-12 text-center">Narzędzia Ery Vibe Coding 2025</h1>

@@ -2,7 +2,7 @@ import { Swords, Zap, Ship } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Cursor vs Windsurf: Bitwa na AI IDE 2025 | Polutek.pl",
+  title: "Cursor vs Windsurf: Bitwa na AI IDE 2025 | Nasza Gazetka",
   description: "Szczegółowe porównanie dwóch najpotężniejszych edytorów kodu AI. Sprawdź, który lepiej radzi sobie z agentami i dużymi projektami.",
 };
 
@@ -13,7 +13,7 @@ export default function VSPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

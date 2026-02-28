@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Brain, Sparkles, Zap } from 'lucide-react';
 
 export const metadata = {
-  title: "Psychologia Vibe Codingu: Jak AI zmienia nasze myślenie | Polutek.pl",
+  title: "Psychologia Vibe Codingu: Jak AI zmienia nasze myślenie | Nasza Gazetka",
   description: "Dlaczego programowanie intencyjne redukuje stres i pozwala na większą kreatywność. Analiza kognitywna.",
 };
 
@@ -13,7 +13,7 @@ export default function PsychPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Psychologia Vibe Codingu</h1>

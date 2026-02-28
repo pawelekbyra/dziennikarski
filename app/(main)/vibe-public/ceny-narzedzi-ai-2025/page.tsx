@@ -3,7 +3,7 @@ import { DollarSign, Check, X, Zap, Info, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Ceny Narzędzi AI 2025: Cursor, Windsurf, Bolt.new | Polutek.pl",
+  title: "Ceny Narzędzi AI 2025: Cursor, Windsurf, Bolt.new | Nasza Gazetka",
   description: "Zestawienie kosztów subskrypcji najpopularniejszych edytorów i generatorów AI. Sprawdź, co najbardziej się opłaca w 2025 roku.",
   keywords: "cursor cena, windsurf pricing, bolt.new cena, lovable subscription, narzędzia ai koszty, ile kosztuje cursor pro",
 };
@@ -66,7 +66,7 @@ export default function PricingComparisonPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-03-04"
       />
 

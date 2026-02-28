@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { ShieldAlert, ShieldCheck, Lock, AlertTriangle } from 'lucide-react';
 
 export const metadata = {
-  title: "Bezpieczeństwo Kodu AI: Jak nie zhakować samego siebie | Polutek.pl",
+  title: "Bezpieczeństwo Kodu AI: Jak nie zhakować samego siebie | Nasza Gazetka",
   description: "Zagrożenia związane z generowaniem kodu przez AI. Jak unikać luk w bezpieczeństwie i wycieków danych.",
 };
 
@@ -13,7 +13,7 @@ export default function SecurityPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4 text-red-600">

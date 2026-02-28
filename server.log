@@ -1,0 +1,38 @@
+yarn run v1.22.22
+$ next start -p 3003
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3003
+
+ ✓ Starting...
+ ✓ Ready in 433ms
+[31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: http://localhost:3003/api/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+    at /app/.next/server/middleware.js:416:54043
+    at sh (/app/.next/server/middleware.js:416:56743)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+Using Prisma (SQLite) DB implementation.
+[31m[auth][error][0m MissingSecret: Please define a `secret`. Read more at https://errors.authjs.dev#missingsecret
+    at /app/.next/server/chunks/1067.js:404:54101
+    at ap (/app/.next/server/chunks/1067.js:404:56697)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m[auth][error][0m MissingSecret: Please define a `secret`. Read more at https://errors.authjs.dev#missingsecret
+    at /app/.next/server/chunks/1067.js:404:54101
+    at ap (/app/.next/server/chunks/1067.js:404:56697)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/app/node_modules/next/dist/server/base-server.js:1588:28)
+[31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: http://localhost:3003/api/auth/session. Read more at https://errors.authjs.dev#untrustedhost
+    at /app/.next/server/middleware.js:416:54043
+    at sh (/app/.next/server/middleware.js:416:56743)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[31m[auth][error][0m MissingSecret: Please define a `secret`. Read more at https://errors.authjs.dev#missingsecret
+    at /app/.next/server/chunks/1067.js:404:54101
+    at ap (/app/.next/server/chunks/1067.js:404:56697)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async /app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:38411
+    at async e_.execute (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:27880)
+    at async e_.handle (/app/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:39943)
+    at async doRender (/app/node_modules/next/dist/server/base-server.js:1366:42)
+    at async cacheEntry.responseCache.get.routeKind (/app/node_modules/next/dist/server/base-server.js:1588:28)

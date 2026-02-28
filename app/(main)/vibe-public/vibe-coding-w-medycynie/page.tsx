@@ -2,7 +2,7 @@ import { Stethoscope, ShieldPlus, Activity } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Vibe Coding w Medycynie: Jak AI ratuje życie i kod | Polutek.pl",
+  title: "Vibe Coding w Medycynie: Jak AI ratuje życie i kod | Nasza Gazetka",
   description: "Zastosowanie programowania intencyjnego w sektorze healthcare. Tworzenie bezpiecznego oprogramowania medycznego z asystą AI.",
 };
 
@@ -13,7 +13,7 @@ export default function MedicinePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

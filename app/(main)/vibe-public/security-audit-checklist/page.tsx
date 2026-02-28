@@ -2,7 +2,7 @@ import { ShieldAlert, CheckCircle, Lock } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Security Audit Checklist dla Kodu AI | Polutek.pl",
+  title: "Security Audit Checklist dla Kodu AI | Nasza Gazetka",
   description: "Techniczny przewodnik po audytowaniu kodu wygenerowanego przez sztuczną inteligencję. Poznaj 10 krytycznych punktów kontrolnych.",
 };
 
@@ -13,7 +13,7 @@ export default function SecurityPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4 text-red-700">

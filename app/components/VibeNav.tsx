@@ -35,8 +35,8 @@ export default function VibeNav() {
             <Sparkles className="w-5 h-5 text-white" />
           </div>
           <div className="flex flex-col leading-none">
-            <span className="font-black text-2xl tracking-tighter text-slate-900">Polutek<span className="text-blue-600">.pl</span></span>
-            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 mt-0.5">Vibe Coding Hub</span>
+            <span className="font-black text-2xl tracking-tighter text-slate-900">NaszaGazetka<span className="text-blue-600">.pl</span></span>
+            <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400 mt-0.5">Niezależny Serwis Śledczy</span>
           </div>
         </Link>
 

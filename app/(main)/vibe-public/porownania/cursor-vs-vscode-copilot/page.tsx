@@ -3,7 +3,7 @@ import { Swords, CheckCircle2, ArrowLeft, Zap, Star } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Cursor vs VS Code + Copilot: Który stack wygrywa w 2025? | Polutek.pl",
+  title: "Cursor vs VS Code + Copilot: Który stack wygrywa w 2025? | Nasza Gazetka",
   description: "Szczegółowe porównanie natywnego edytora AI Cursor z klasycznym VS Code doposażonym w GitHub Copilot. Sprawdź benchmarki i workflow.",
 };
 
@@ -14,7 +14,7 @@ export default function CursorVsCopilotPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

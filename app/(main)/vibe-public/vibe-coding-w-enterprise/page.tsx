@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Building2, ShieldCheck, ClipboardCheck } from 'lucide-react';
 
 export const metadata = {
-  title: "Vibe Coding w Enterprise: Skalowanie w Korporacjach | Polutek.pl",
+  title: "Vibe Coding w Enterprise: Skalowanie w Korporacjach | Nasza Gazetka",
   description: "Jak wdrażać programowanie intencyjne w dużych organizacjach. Bezpieczeństwo, standardy i governance AI.",
 };
 
@@ -13,7 +13,7 @@ export default function EnterprisePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Vibe Coding w Enterprise</h1>

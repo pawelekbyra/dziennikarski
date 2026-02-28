@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import CursorRulesClient from '@/app/components/CursorRulesClient';
 
 export const metadata = {
-  title: "Biblioteka .cursorrules: Gotowe szablony dla Twojego stacku | Polutek.pl",
+  title: "Biblioteka .cursorrules: Gotowe szablony dla Twojego stacku | Nasza Gazetka",
   description: "Zbiór najlepszych reguł .cursorrules dla Next.js, Python, React Native i Backend. Skopiuj i zoptymalizuj swoje AI w edytorze Cursor.",
   keywords: ".cursorrules library, cursor rules templates, nextjs cursorrules, python cursorrules, ai coding standards",
 };
@@ -14,7 +14,7 @@ export default function CursorRulesLibrary() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-03-04"
       />
       <CursorRulesClient />

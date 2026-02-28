@@ -18,12 +18,12 @@ export default function VibeCodingLayout({ children }: { children: React.ReactNo
               <div className="flex items-center gap-3 mb-6">
                 <Sparkles className="w-8 h-8 text-blue-500" />
                 <div className="flex flex-col leading-none">
-                  <span className="font-black text-3xl text-white tracking-tighter">Polutek<span className="text-blue-500">.pl</span></span>
-                  <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 mt-1">Vibe Coding Hub</span>
+                  <span className="font-black text-3xl text-white tracking-tighter">NaszaGazetka<span className="text-blue-500">.pl</span></span>
+                  <span className="text-[10px] font-bold uppercase tracking-[0.3em] text-slate-500 mt-1">Niezależny Serwis Śledczy</span>
                 </div>
               </div>
               <p className="max-w-md">
-                Największy polski portal poświęcony przyszłości programowania, AI Software Engineering i narzędziom takim jak Cursor, Claude oraz nowym paradygmatom pracy.
+                Największy polski portal poświęcony przyszłości dziennikarstwa śledczego, AI Software Engineering i narzędziom takim jak Cursor, Claude oraz nowym paradygmatom pracy.
               </p>
             </div>
             <div>
@@ -56,7 +56,7 @@ export default function VibeCodingLayout({ children }: { children: React.ReactNo
             </div>
           </div>
           <div className="pt-8 border-t border-slate-800 text-sm flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>© 2025 Polutek.pl. Wszystkie prawa zastrzeżone.</p>
+            <p>© 2025 NaszaGazetka.pl. Wszystkie prawa zastrzeżone.</p>
             <div className="flex gap-8">
               <a href="#" className="hover:text-white transition-colors">Polityka prywatności</a>
               <a href="#" className="hover:text-white transition-colors">Kontakt</a>

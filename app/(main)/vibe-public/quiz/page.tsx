@@ -2,7 +2,7 @@ import VibeQuiz from '@/app/components/VibeQuiz';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Quiz: Czy jesteś gotowy na Vibe Coding? | Polutek.pl",
+  title: "Quiz: Czy jesteś gotowy na Vibe Coding? | Nasza Gazetka",
   description: "Sprawdź swój Vibe Score. Dowiedz się, czy potrafisz efektywnie współpracować z AI jako programista i jak zwiększyć swoją produktywność 10x.",
 };
 
@@ -13,7 +13,7 @@ export default function QuizPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
       <section className="bg-indigo-700 py-24 px-4 text-center text-white">
