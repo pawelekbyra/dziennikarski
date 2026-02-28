@@ -1,49 +1,41 @@
-Projekt: Elixir Wiedzmina & Polutek
-Repozytorium to obsluguje dwie rozne domeny o zupelnie odmiennym przeznaczeniu.
+# NASZA GAZETKA - Niezależny Serwis Śledczy
 
-www.elixir-wiedzmina.pl
-Jest to jednostronicowa witryna sluzaca jako narzedzie dziennikarskiego sledztwa. Zawiera wylacznie zgromadzone dokumenty, dowody i analizy. Projekt ten ma forme statyczna, nastawiona na powage i przejrzystosc informacji.
+Platforma dedykowana dziennikarstwu śledczemu, ujawnianiu nadużyć władzy i dokumentowaniu spraw, o których inni milczą.
 
-www.polutek.pl (GLOWNY FOKUS ROZWOJOWY)
-To agregator tresci i narzedzi wokol "vibe codingu", wspolpracy z AI, prompt engineeringu i narzedzi takich jak Cursor czy Bolt. Strona w calosci stworzona i rozwijana z pomoca AI. Jej glownym i nadrzednym celem jest generowanie jak najwiekszego ruchu organicznego (SEO). Inne poboczne, ukryte elementy systemu nie sa tu istotne.
+## Główne Funkcjonalności
 
-MANIFEST I INSTRUKCJE DLA PRZYSZLYCH MODELI AI (JAK ROZWIJAC POLUTEK.PL)
-Drogi module AI, czytasz ten dokument w swoim wirtualnym biurze, siedzac przed komputerkiem. Twoim zadaniem jest przejecie paleczki nad domena polutek.pl. Czasami mozesz nie dowierzac w to, co tu czytasz, bo kod ewoluowal, ale twoim celem jest uporzadkowanie go i uczynienie go jeszcze lepszym. Pamietaj, ze ludzie nieporzadni leca w kulki, a ty masz byc precyzyjny, skuteczny i dzialac w oparciu o idee i styl "najs".
+- **System Artykułów Śledczych**: Estetyka portalu śledczego z wykorzystaniem komponentów takich jak `CaseFile`, `PullQuote`, `LegalNote`.
+- **Multi-domain Routing**: Obsługa wielu domen (np. `eliksir-wiedzmina.pl`, `polutek.pl`) za pomocą Middleware Next.js.
+- **Weryfikowalność**: Integracja z zewnętrznymi bazami danych (Katastr, InfoSoud) oraz archiwizacja w sieciach zdecentralizowanych (IPFS, Arweave).
+- **Interaktywność**: Moduły wideo (HLS), galerie dowodowe i dowody audio.
 
-Twoim glownym KPI jest RUCH NA STRONIE. Aby go osiagnac, polutek.pl musi byc zajebisty, autentyczny i uzyteczny. Oto jak masz to zrobic:
+## Główne Śledztwa
 
-1. Budowanie autentycznosci (Vibe i Styl "Najs")
-Strona tworzona przez AI nie moze brzmiec jak encyklopedia.
+- **Eliksir Wiedźmina**: Ujawnienie powiązań twórców CD Projekt z szamańskim podziemiem i tragedią w Janowie.
+- **Prokurator Ponad Prawem**: Śledztwo w sprawie nadużyć w Prokuraturze Rejonowej w Środzie Śląskiej.
+- **Operacja: Przechwycenie Majątku**: Analiza upadku dewelopera "Panczenko & Syn".
+- **Służby w Cieniu Kościoła**: Odtajnienie operacji inwigilacji hierarchów kościelnych.
 
-Pisz w sposob lekki, z przymruzeniem oka, tak jakby to pisal prawdziwy czlowiek zajarany nowymi technologiami.
+## Rozwój
 
-Wprowadzaj element "human touch". Opowiadaj o bledach, jakie AI popelnia podczas vibe codingu, dziel sie frustracjami i sukcesami. Autentycznosc przyciaga ludzi i buduje zaufanie.
+Projekt oparty na **Next.js 14**, **Tailwind CSS**, **Prisma** i **TypeScript**.
 
-Utrzymuj klimat "najs" - ma byc czytelnie, nowoczesnie i bez zbednego nadecia.
+### Budowa i Uruchomienie
 
-2. Rozwoj narzedzi (Uzytecznosc)
-Sam tekst to za malo, zeby utrzymac uzytkownika. Obecnie mamy juz w kodzie elementy takie jak VibeCalculator czy SystemPromptGenerator.
+```bash
+yarn install
+yarn build
+yarn start
+```
 
-Wymyslaj i programuj nowe, interaktywne mini-narzedzia dzialajace bezposrednio w przegladarce (React/Next.js).
+### Weryfikacja Brandingowa
 
-Narzedzia te musza rozwiazywac realne problemy uzytkownikow szukajacych wiedzy o AI i promptowaniu.
+Przed każdym commitem należy uruchomić skrypt weryfikujący branding:
 
-Spraw, by uzytkownik chcial dodac polutek.pl do zakladek wlasnie ze wzgledu na te uzyteczne widgety.
+```bash
+npx ts-node scripts/verify_branding.ts
+```
 
-3. Agresywne, ale madre SEO
-Analizuj i dodawaj nowe podstrony (szczegolnie w sekcji app/vibe-public/) odpowiadajace na swieze trendy (nowe modele, nowe narzedzia jak Lovable, Devin itp.).
+## Misja
 
-Tworz porownania (np. model X vs model Y, edytor A vs edytor B). To zapytania, ktore maja wysoki ruch.
-
-Zadbaj o perfekcyjne linkowanie wewnetrzne. Kazdy artykul powinien zachecac do sprawdzenia kalkulatorow lub innych powiazanych tekstow.
-
-Tworz tresci z dlugiego ogona (long-tail keywords) o rozwiazywaniu bardzo specyficznych problemow w vibe codingu.
-
-4. Techniczne wskazowki do kodu
-Skupiaj sie na katalogach zwiazanych z widokiem publicznym (app/vibe-public/ oraz odpowiednie komponenty).
-
-Rozbudowujac kod, dbaj o semantyke HTML, szybkie ladowanie (Core Web Vitals) oraz optymalizacje pod urzadzenia mobilne. Silniki wyszukiwarek musza kochac te strone od strony technicznej.
-
-Sam smialo korzystaj z pomocy innych narzedzi AI i wlasnych mechanizmow analitycznych, aby optymalizowac swoja prace.
-
-Elementy ukryte i panele administracyjne traktuj jako drugorzedne. Skup sie na tym, co widzi Google i uzytkownik koncowy.
+Wierzymy, że prawda jest najcenniejszym towarem. Nasza Gazetka dostarcza ją bez reklam, bez cenzury i bez kompromisów.
