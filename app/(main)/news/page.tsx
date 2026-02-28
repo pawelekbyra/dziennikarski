@@ -4,18 +4,11 @@ import React, { useState } from 'react';
 import NewsFeed from '../NewsFeed';
 import ChmurkaArticle from '../ChmurkaArticle';
 import StypulkowskaArticle from '../StypulkowskaArticle';
+import PanczenkoArticle from '../PanczenkoArticle';
+import SmokArticle from '../SmokArticle';
+import SzpitalArticle from '../SzpitalArticle';
 import ElixirArticle from '../../eliksir/ElixirArticle';
-import { ChevronLeft, Construction } from 'lucide-react';
-
-const ComingSoon = () => (
-  <div className="min-h-screen bg-stone-50 flex flex-col items-center justify-center p-8 text-center font-serif">
-    <Construction className="w-16 h-16 text-stone-300 mb-6" />
-    <h1 className="text-4xl font-bold text-stone-900 mb-4 uppercase tracking-tighter">Materiał w przygotowaniu</h1>
-    <p className="text-xl text-stone-600 max-w-md italic">
-      Nasi dziennikarze śledczy pracują nad pełną dokumentacją tego tematu. Zapraszamy wkrótce.
-    </p>
-  </div>
-);
+import { ChevronLeft } from 'lucide-react';
 
 export default function NewsPage() {
   const [selectedArticle, setSelectedArticle] = useState<string | null>(null);
@@ -29,9 +22,11 @@ export default function NewsPage() {
       case 'elixir':
         return <ElixirArticle />;
       case 'panczenko':
+        return <PanczenkoArticle />;
       case 'smok':
+        return <SmokArticle />;
       case 'szpital':
-        return <ComingSoon />;
+        return <SzpitalArticle />;
       default:
         return null;
     }
