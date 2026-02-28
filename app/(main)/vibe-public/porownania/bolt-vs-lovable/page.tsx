@@ -3,7 +3,7 @@ import { Zap, Rocket, Globe, Code, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Bolt.new vs Lovable.dev: Który generator fullstack jest lepszy? | Polutek.pl",
+  title: "Bolt.new vs Lovable.dev: Który generator fullstack jest lepszy? | Nasza Gazetka",
   description: "Zestawienie dwóch najgorętszych platform do budowania aplikacji webowych za pomocą jednego promptu. Sprawdzamy Bolt i Lovable.",
 };
 
@@ -14,7 +14,7 @@ export default function BoltVsLovablePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

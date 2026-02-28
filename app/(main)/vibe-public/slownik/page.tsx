@@ -4,7 +4,7 @@ import { Search, Book, ArrowRight, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Słownik Vibe Codingu: Najważniejsze pojęcia AI 2025 | Polutek.pl",
+  title: "Słownik Vibe Codingu: Najważniejsze pojęcia AI 2025 | Nasza Gazetka",
   description: "Zrozum język nowej ery programowania. Przewodnik po 500+ pojęciach AI i programowania intencyjnego.",
 };
 
@@ -15,7 +15,7 @@ export default function GlossaryPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
       <section className="bg-slate-900 py-24 px-4 text-center text-white relative overflow-hidden">

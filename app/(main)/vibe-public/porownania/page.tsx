@@ -4,7 +4,7 @@ import { Swords, ArrowRight, Zap, Brain } from 'lucide-react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Porównania Narzędzi i Modeli AI 2025 | Polutek.pl",
+  title: "Porównania Narzędzi i Modeli AI 2025 | Nasza Gazetka",
   description: "Bezpośrednie starcia Cursor vs VS Code, Claude vs GPT-o1 i innych. Sprawdź, co najlepiej sprawdzi się w Twoim workflow Vibe Codingu.",
 };
 
@@ -15,7 +15,7 @@ export default function ComparisonsListPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

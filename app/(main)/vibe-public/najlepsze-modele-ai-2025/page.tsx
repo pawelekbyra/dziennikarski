@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Cpu, Brain, Zap } from 'lucide-react';
 
 export const metadata = {
-  title: "Ranking Modeli AI do Programowania 2025 | Polutek.pl",
+  title: "Ranking Modeli AI do Programowania 2025 | Nasza Gazetka",
   description: "Claude 3.5 Sonnet vs GPT-4o vs DeepSeek V3. Sprawdź, który model najlepiej pisze kod i rozumie intencje w Vibe Codingu.",
 };
 
@@ -13,7 +13,7 @@ export default function ModelsRankingPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-12">Ranking Modeli AI 2025</h1>

@@ -3,7 +3,7 @@ import VibeChecklist from '@/app/components/VibeChecklist';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Roadmapa Vibe Codingu: Od Juniora do AI Architecta | Polutek.pl",
+  title: "Roadmapa Vibe Codingu: Od Juniora do AI Architecta | Nasza Gazetka",
   description: "Interaktywna ścieżka nauki programowania intencyjnego. Dowiedz się czego się uczyć w erze AI Software Engineering.",
 };
 
@@ -14,7 +14,7 @@ export default function RoadmapPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <section className="bg-blue-600 py-24 px-4 text-center text-white overflow-hidden relative">

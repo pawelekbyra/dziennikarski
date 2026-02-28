@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Brain, Cpu, Zap, Star } from 'lucide-react';
 
 export const metadata = {
-  title: "Claude 3.5 Sonnet vs GPT-o1: Który model lepiej pisze kod? | Polutek.pl",
+  title: "Claude 3.5 Sonnet vs GPT-o1: Który model lepiej pisze kod? | Nasza Gazetka",
   description: "Porównanie dwóch gigantów pod kątem rozumowania programistycznego. Claude vs OpenAI - sprawdzamy wyniki w Vibe Codingu.",
 };
 
@@ -13,7 +13,7 @@ export default function vsPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
       <h1 className="text-4xl md:text-5xl font-black mb-8 leading-tight">Claude 3.5 Sonnet vs GPT-o1: Wojna na Rozumowanie</h1>

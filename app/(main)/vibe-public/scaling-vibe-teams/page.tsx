@@ -2,7 +2,7 @@ import { Users, LayoutGrid, Zap } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Scaling Vibe Teams: Jak zarządzać zespołem 10x developerów | Polutek.pl",
+  title: "Scaling Vibe Teams: Jak zarządzać zespołem 10x developerów | Nasza Gazetka",
   description: "Zasady zarządzania w nowoczesnym software housie. Jak uniknąć chaosu w kodzie, gdy wszyscy używają AI.",
 };
 
@@ -13,7 +13,7 @@ export default function TeamsPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

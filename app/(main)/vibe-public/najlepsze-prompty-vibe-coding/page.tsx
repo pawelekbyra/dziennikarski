@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Sparkles, MessageSquare, Code2, Repeat } from 'lucide-react';
 
 export const metadata = {
-  title: "Biblioteka Promptów Vibe Coding: Gotowce do Cursora | Polutek.pl",
+  title: "Biblioteka Promptów Vibe Coding: Gotowce do Cursora | Nasza Gazetka",
   description: "Zbiór sprawdzonych promptów, które przyspieszają pisanie kodu, refaktoryzację i testowanie w edytorze Cursor.",
 };
 
@@ -13,7 +13,7 @@ export default function PromptsPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Biblioteka Promptów</h1>

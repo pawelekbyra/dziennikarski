@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Layout, Zap, Cpu } from 'lucide-react';
 
 export const metadata = {
-  title: "Vibe Coding w React & Next.js: Buduj UI 10x Szybciej | Polutek.pl",
+  title: "Vibe Coding w React & Next.js: Buduj UI 10x Szybciej | Nasza Gazetka",
   description: "Praktyczny przewodnik po tworzeniu nowoczesnych interfejsów w React z pomocą asystentów AI.",
 };
 
@@ -13,7 +13,7 @@ export default function ReactPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Vibe Coding w React & Next.js</h1>

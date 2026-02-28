@@ -2,7 +2,7 @@ import { TrendingUp, Globe, Sparkles } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Przyszłość SaaS 2025: Era Micro-SaaS i Solopreneurów | Polutek.pl",
+  title: "Przyszłość SaaS 2025: Era Micro-SaaS i Solopreneurów | Nasza Gazetka",
   description: "Dlaczego tradycyjne software house'y upadają, a jedna osoba z AI może zbudować imperium. Trendy SaaS na rok 2025.",
 };
 
@@ -13,7 +13,7 @@ export default function SaasFuturePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

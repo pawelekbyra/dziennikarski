@@ -32,11 +32,7 @@ export default function SchemaMarkup(props: SchemaProps) {
       "datePublished": props.datePublished,
       "publisher": {
         "@type": "Organization",
-        "name": "polutek.pl",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://polutek.pl/logo.png"
-        }
+        "name": "naszagazetka.pl"
       }
     };
   } else if (props.type === 'FAQ') {

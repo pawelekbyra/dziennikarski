@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { DollarSign, Briefcase, Rocket, Globe } from 'lucide-react';
 
 export const metadata = {
-  title: "Jak zarabiać na Vibe Codingu w 2025 roku? | Polutek.pl",
+  title: "Jak zarabiać na Vibe Codingu w 2025 roku? | Nasza Gazetka",
   description: "Przewodnik po monetyzacji umiejętności programowania intencyjnego. Freelance, SaaS i automatyzacja procesów.",
 };
 
@@ -13,7 +13,7 @@ export default function EarnPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Jak zarabiać na Vibe Codingu?</h1>

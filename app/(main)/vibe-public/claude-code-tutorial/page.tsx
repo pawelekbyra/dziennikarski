@@ -4,7 +4,7 @@ import { Terminal, Cpu, Zap, Code2, ArrowRight, ShieldAlert } from 'lucide-react
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Claude Code: Tutorial CLI od Anthropic. Czy zastąpi Cursora? | Polutek.pl",
+  title: "Claude Code: Tutorial CLI od Anthropic. Czy zastąpi Cursora? | Nasza Gazetka",
   description: "Poznaj Claude Code - rewolucyjne narzędzie CLI do programowania agentycznego. Sprawdź jak zainstalować i czy warto porzucić dla niego edytor Cursor.",
   keywords: "claude code tutorial, claude cli, anthropic claude code, programowanie w terminalu ai, agentic coding cli, cursor vs claude code",
 };
@@ -16,7 +16,7 @@ export default function ClaudeCodePage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-03-04"
       />
 

@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { LayoutDashboard, Target, Zap, CheckCircle } from 'lucide-react';
 
 export const metadata = {
-  title: "Case Study: Dashboard MVP w 2 godziny | Polutek.pl",
+  title: "Case Study: Dashboard MVP w 2 godziny | Nasza Gazetka",
   description: "Zobacz jak krok po kroku zbudowaliśmy profesjonalny dashboard analityczny z autentykacją i bazą danych w rekordowym czasie.",
 };
 
@@ -13,7 +13,7 @@ export default function CaseStudyPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
       <div className="text-center mb-16">

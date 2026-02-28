@@ -3,7 +3,7 @@ import { UserMinus, TrendingUp, GraduationCap } from 'lucide-react';
 import LolekCommentary from '@/app/components/LolekCommentary';
 
 export const metadata = {
-  title: "Przyszłość Juniorów w Erze AI: Czy to koniec zawodu? | Polutek.pl",
+  title: "Przyszłość Juniorów w Erze AI: Czy to koniec zawodu? | Nasza Gazetka",
   description: "Analiza rynku pracy dla początkujących programistów. Jak junior może przetrwać i wygrywać dzięki Vibe Codingowi.",
 };
 
@@ -14,7 +14,7 @@ export default function JuniorPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">Przyszłość Juniorów w Erze AI</h1>

@@ -2,7 +2,7 @@ import SchemaMarkup from '@/app/components/SchemaMarkup';
 import { Target, Zap, Rocket } from 'lucide-react';
 
 export const metadata = {
-  title: "SaaS w 24 godziny: Case Study Vibe Codingu | Polutek.pl",
+  title: "SaaS w 24 godziny: Case Study Vibe Codingu | Nasza Gazetka",
   description: "Jak zbudować i wdrożyć działający produkt w jeden dzień używając Cursora i Lovable. Analiza procesu.",
 };
 
@@ -13,7 +13,7 @@ export default function Saas24Page() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8">SaaS w 24 godziny</h1>

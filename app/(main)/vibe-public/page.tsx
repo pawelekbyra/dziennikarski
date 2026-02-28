@@ -17,7 +17,7 @@ export default function VibeHome() {
         type="Article"
         headline="Polutek.pl - Kurs Vibe Codingu i Narzędzia AI dla Programistów"
         description="Największy polski portal o Vibe Codingu. Kursy, tutoriale i porównania narzędzi AI. Dowiedz się jak wejść w programowanie intencyjne w 2025 roku."
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-03-04"
       />
       <VibeHero />

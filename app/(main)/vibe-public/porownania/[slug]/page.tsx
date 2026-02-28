@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: any) {
   const comp = comparisons.find(c => c.slug === params.slug);
   if (!comp) return {};
   return {
-    title: `${comp.title}: Które narzędzie AI wybrać w 2025? | Polutek.pl`,
+    title: `${comp.title}: Które narzędzie AI wybrać w 2025? | Nasza Gazetka`,
     description: `Bezpośrednie starcie ${comp.itemA} vs ${comp.itemB}. Sprawdź benchmarki, ceny i wyniki w Vibe Codingu.`,
   };
 }
@@ -29,7 +29,7 @@ export default function ComparisonPage({ params }: any) {
         type="Article"
         headline={comp.title}
         description={`Porównanie ${comp.itemA} oraz ${comp.itemB} pod kątem programowania z AI.`}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-27"
       />
 

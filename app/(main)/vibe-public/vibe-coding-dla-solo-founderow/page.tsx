@@ -4,7 +4,7 @@ import { Rocket, Target, Zap, Globe, Briefcase, Sparkles, ArrowRight } from 'luc
 import Link from 'next/link';
 
 export const metadata = {
-  title: "Vibe Coding dla Solo-Founderów: Buduj SaaS w pojedynkę | Polutek.pl",
+  title: "Vibe Coding dla Solo-Founderów: Buduj SaaS w pojedynkę | Nasza Gazetka",
   description: "Przewodnik dla nietechnicznych i technicznych founderów. Jak wykorzystać AI do budowy, wdrożenia i skalowania produktu bez zespołu.",
   keywords: "vibe coding dla founderów, solo founder saas ai, budowa mvp z ai, solopreneur ai tools, programowanie intencyjne biznes",
 };
@@ -16,7 +16,7 @@ export default function SoloFounderPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-03-04"
       />
 

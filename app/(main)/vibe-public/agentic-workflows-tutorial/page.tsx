@@ -2,7 +2,7 @@ import { Bot, Workflow, Cpu } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Agentic Workflows: Tutorial Programowania Autonomicznego | Polutek.pl",
+  title: "Agentic Workflows: Tutorial Programowania Autonomicznego | Nasza Gazetka",
   description: "Jak zbudować system, w którym AI agenci współpracują ze sobą nad Twoim kodem. Tutorial krok po kroku.",
 };
 
@@ -13,7 +13,7 @@ export default function AgenticPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4">

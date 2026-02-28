@@ -2,7 +2,7 @@ import { Code, Database, BarChart } from 'lucide-react';
 import SchemaMarkup from '@/app/components/SchemaMarkup';
 
 export const metadata = {
-  title: "Vibe Coding w Pythonie: Data Science i Backend 10x Szybciej | Polutek.pl",
+  title: "Vibe Coding w Pythonie: Data Science i Backend 10x Szybciej | Nasza Gazetka",
   description: "Jak wykorzystać potencjał Pythona i AI w analizie danych oraz budowaniu API. Najlepsze biblioteki dla Vibe Coderów.",
 };
 
@@ -13,7 +13,7 @@ export default function PythonPage() {
         type="Article"
         headline={metadata.title}
         description={metadata.description}
-        author="Detektyw Polutek"
+        author="Redakcja Naszej Gazetki"
         datePublished="2025-02-21"
       />
       <h1 className="text-4xl md:text-5xl font-bold mb-8 flex items-center gap-4 text-blue-800">
