@@ -1,13 +1,13 @@
 "use client";
 
 import React, { useState } from 'react';
-import NewsFeed from '../NewsFeed';
-import ChmurkaArticle from '../ChmurkaArticle';
-import StypulkowskaArticle from '../StypulkowskaArticle';
-import PanczenkoArticle from '../PanczenkoArticle';
-import SmokArticle from '../SmokArticle';
-import SzpitalArticle from '../SzpitalArticle';
-import ElixirArticle from '../../eliksir/ElixirArticle';
+import NewsFeed from './NewsFeed';
+import ChmurkaArticle from './ChmurkaArticle';
+import StypulkowskaArticle from './StypulkowskaArticle';
+import PanczenkoArticle from './PanczenkoArticle';
+import SmokArticle from './SmokArticle';
+import SzpitalArticle from './SzpitalArticle';
+import ElixirArticle from '../eliksir/ElixirArticle';
 import { ChevronLeft } from 'lucide-react';
 
 export default function NewsPage() {
