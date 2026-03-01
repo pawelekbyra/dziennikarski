@@ -15,7 +15,10 @@ export default auth((req) => {
   const isAiDomain = hostname === "polutek.pl" || hostname === "www.polutek.pl" || hostname === "vibecoding.polutek.pl" || hostname === "www.vibecoding.polutek.pl" || hostname === "localhost" || hostname === "127.0.0.1";
 
   if (isEliksirDomain) {
-    // serves the root page from app/(eliksir)/page.tsx
+    // rewritten to unique path in app/(eliksir)/eliksir-home/page.tsx
+    if (nextUrl.pathname === "/") {
+      return NextResponse.rewrite(new URL("/eliksir-home", req.url));
+    }
     return NextResponse.next();
   }
 
@@ -24,7 +27,7 @@ export default auth((req) => {
     if (isSeoFile) return NextResponse.next();
 
     if (nextUrl.pathname === "/") {
-      return NextResponse.rewrite(new URL("/news", req.url));
+      return NextResponse.next();
     }
 
     if (!nextUrl.pathname.startsWith("/vibe-public") && !nextUrl.pathname.startsWith("/news")) {
