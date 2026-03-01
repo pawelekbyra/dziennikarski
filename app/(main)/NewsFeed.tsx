@@ -67,34 +67,21 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
 
   return (
     <div className="min-h-screen bg-white font-serif text-stone-900">
-      {/* Top Banner / Breaking */}
-      <div className="bg-red-700 text-white py-2 px-6 overflow-hidden whitespace-nowrap">
-        <div className="max-w-6xl mx-auto flex items-center gap-4">
-          <span className="font-bold bg-white text-red-700 px-2 py-0.5 text-xs uppercase animate-pulse">Na żywo</span>
-          <p className="text-sm font-sans font-medium italic">Trwa śledztwo w sprawie Eliksiru Wiedźmina. Nowe fakty wychodzą na jaw co godzinę...</p>
-        </div>
-      </div>
-
-      <div className="bg-red-800 text-white py-1.5 text-center font-bold text-[10px] uppercase tracking-[0.4em] border-y border-red-900 shadow-inner overflow-hidden">
-        <div className="animate-marquee whitespace-nowrap inline-block">
-          PRAWDA WYCHODZI NA JAW • ŚLEDZTWO W TOKU • DOKUMENTY UJAWNIONE • PRAWDA WYCHODZI NA JAW • ŚLEDZTWO W TOKU • DOKUMENTY UJAWNIONE • PRAWDA WYCHODZI NA JAW • ŚLEDZTWO W TOKU • DOKUMENTY UJAWNIONE
-        </div>
-      </div>
 
       {/* Main Navigation/Header */}
-      <header className="border-b-4 border-double border-stone-200 py-8 px-6">
+      <header className="border-b-4 border-double border-stone-300 py-8 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <h1 className="text-6xl md:text-8xl font-black tracking-tighter uppercase mb-2">NASZA GAZETKA</h1>
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight uppercase mb-2">NASZA GAZETKA</h1>
           <div className="flex flex-col md:flex-row justify-between items-center border-y border-stone-300 py-3 mt-6">
             <div className="text-xs font-bold uppercase tracking-widest text-stone-500 mb-2 md:mb-0">
               Niezależny Serwis Śledczy • {new Date().toLocaleDateString('pl-PL', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}
             </div>
             <nav className="flex gap-6 font-sans text-xs font-bold uppercase tracking-wider">
-              <a href="#" className="hover:text-red-700 transition-colors">Kraj</a>
-              <a href="#" className="hover:text-red-700 transition-colors">Świat</a>
-              <a href="#" className="hover:text-red-700 transition-colors">Gospodarka</a>
-              <a href="#" className="hover:text-red-700 transition-colors">Opinie</a>
-              <a href="#" className="text-red-700">Śledztwa</a>
+              <a href="#" className="hover:text-stone-900 transition-colors">Kraj</a>
+              <a href="#" className="hover:text-stone-900 transition-colors">Świat</a>
+              <a href="#" className="hover:text-stone-900 transition-colors">Gospodarka</a>
+              <a href="#" className="hover:text-stone-900 transition-colors">Opinie</a>
+              <a href="#" className="text-stone-900 underline decoration-double decoration-stone-300 underline-offset-4">Śledztwa</a>
             </nav>
           </div>
         </div>
@@ -113,10 +100,10 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
             />
             <div className="absolute bottom-0 left-0 right-0 p-6 md:p-16 z-20 bg-gradient-to-t from-black/95 via-black/70 to-transparent">
               <div className="flex flex-col items-start gap-4 mb-6">
-                <span className="inline-block px-4 py-1.5 bg-yellow-500 text-stone-900 text-sm font-black uppercase tracking-tighter shadow-lg transform -rotate-1">
+                <span className="inline-block px-4 py-1.5 bg-stone-900 text-white text-sm font-black uppercase tracking-tight">
                   TEMAT NUMERU
                 </span>
-                <span className="inline-block px-2 py-1 bg-red-600 text-white text-[10px] font-bold uppercase tracking-widest">
+                <span className="inline-block px-2 py-1 bg-stone-100 text-stone-600 border border-stone-200 text-[10px] font-bold uppercase tracking-widest">
                   {heroArticle.category}
                 </span>
               </div>
@@ -126,7 +113,7 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
               <p className="text-stone-200 text-lg md:text-xl max-w-3xl leading-relaxed drop-shadow-sm line-clamp-3 md:line-clamp-none">
                 {heroArticle.excerpt}
               </p>
-              <div className="mt-6 flex items-center text-yellow-400 font-sans text-sm font-bold uppercase tracking-wider group-hover:translate-x-2 transition-transform">
+              <div className="mt-6 flex items-center text-white/80 font-sans text-sm font-bold uppercase tracking-wider group-hover:translate-x-2 transition-transform">
                 Czytaj dalej <ChevronRight className="w-4 h-4 ml-1" />
               </div>
             </div>
@@ -136,7 +123,7 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
         {/* Investigation Grid */}
         <section className="mb-16">
           <div className="flex items-center gap-4 mb-10">
-            <h2 className="text-3xl font-black uppercase tracking-tight text-stone-900 italic border-l-8 border-stone-900 pl-4">Raporty Specjalne</h2>
+            <h2 className="text-3xl font-black uppercase tracking-tight text-stone-900 italic border-l-8 border-red-800 pl-4">Raporty Specjalne</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -168,7 +155,7 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
         {/* Latest News Feed */}
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-12 border-t pt-12 border-stone-200">
           <div className="lg:col-span-2">
-            <h2 className="text-xl font-black uppercase tracking-widest mb-8 border-b-2 border-stone-900 inline-block">Najnowsze</h2>
+            <h2 className="text-xl font-black uppercase tracking-widest mb-8 border-b-2 border-stone-800 inline-block">Najnowsze</h2>
             <div className="space-y-12">
               {latestArticles.map((article) => (
                 <article
@@ -217,7 +204,7 @@ export default function NewsFeed({ onUnlock }: NewsFeedProps) {
             <div className="mt-12 pt-8 border-t border-stone-300">
               <h3 className="text-xs font-black uppercase mb-4">Wesprzyj nas</h3>
               <p className="text-xs text-stone-500 font-sans leading-relaxed mb-4">Jesteśmy niezależni dzięki Waszemu wsparciu. Żadnych reklam, żadnej cenzury.</p>
-              <button className="w-full py-2 bg-stone-900 text-white text-[10px] font-bold uppercase tracking-widest hover:bg-red-700 transition-colors">Wpłać na fundusz śledczy</button>
+              <button className="w-full py-2 bg-stone-900 text-white text-[10px] font-bold uppercase tracking-widest hover:bg-stone-800 transition-colors">Wpłać na fundusz śledczy</button>
             </div>
           </aside>
         </section>
